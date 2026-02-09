@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Configuración de Lenguaje y Entorno */
+    "target": "ES6",                          /* Permite usar .includes(), promesas y arrow functions */
+    "module": "commonjs",                    /* Estándar para aplicaciones Node.js */
+    "lib": ["ES6", "DOM"],                   /* Bibliotecas necesarias para el backend y validaciones básicas */
+    
+    /* Control de Rutas y Salida */
+    "rootDir": "./src",                      /* Ubicación del código fuente */
+    "outDir": "./dist",                      /* Donde se guardará el código compilado para producción */
+    "baseUrl": "./src",                      /* Base para resolver módulos */
+    
+    /* Estrictez y Calidad de Código */
+    "strict": true,                          /* Habilita comprobaciones estrictas para evitar errores de tipo */
+    "noImplicitAny": true,                   /* Evita que las variables pierdan su tipo de dato */
+    "esModuleInterop": true,                 /* Mejora la compatibilidad con librerías como Express y Mongoose */
+    "skipLibCheck": true,                    /* Acelera la compilación ignorando errores en archivos de librerías externas */
+    "forceConsistentCasingInFileNames": true /* **IMPORTANTE**: Te avisará si hay errores de mayúsculas/minúsculas en tus imports */
+  },
+  "include": ["src/**/*"],                   /* Incluye todos los archivos dentro de src */
+  "exclude": ["node_modules", "**/*.spec.ts"] /* Ignora librerías y archivos de prueba */
+}
