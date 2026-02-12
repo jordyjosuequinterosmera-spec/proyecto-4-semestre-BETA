@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitaciones | Casa Barlovento</title>
+    <link rel="stylesheet" href="css/habitaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container" style="display:flex; justify-content:space-between; align-items:center; padding: 20px;">
+            <h1 class="logo">Casa Barlovento</h1>
+            <nav>
+                <ul style="display:flex; list-style:none; gap:20px;">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="habitaciones.html" class="active" style="font-weight:bold; color:#002e5b;">Habitaciones</a></li>
+                    <li><a href="index.html#punto-reserva">Reservar Ahora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-habitaciones">
+        <div class="hero-content">
+            <h2>Nuestra Colección</h2>
+            <p>Descubre el espacio perfecto para tu descanso</p>
+        </div>
+    </section>
+
+    <main class="container rooms-section">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="suite">Suites</button>
+            <button class="filter-btn" data-filter="familiar">Familiares</button>
+        </div>
+
+        <div class="rooms-grid" id="rooms-container">
+            </div>
+    </main>
+
+    <div id="room-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body" id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="js/habitaciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "tipo": "simple",
+    "nombre": "Habitación Standard 101",
+    "precio": 85,
+    "imagen": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+    "descripcionCorta": "Ideal para viajeros solitarios.",
+    "descripcionLarga": "Nuestra habitación standard ofrece todo lo necesario para un descanso reparador. Cuenta con cama individual de alta gama, escritorio de trabajo ergonómico y ducha de lluvia.",
+    "tamano": "25m²",
+    "capacidad": "1 Persona",
+    "cama": "Individual",
+    "vista": "Jardín Interior"
+  },
+  {
+    "id": 2,
+    "tipo": "doble",
+    "nombre": "Doble Deluxe 205",
+    "precio": 120,
+    "imagen": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+    "descripcionCorta": "Espacio compartido con estilo.",
+    "descripcionLarga": "Perfecta para parejas. Esta habitación cuenta con balcón privado, minibar surtido y un baño espacioso con acabados en mármol.",
+    "tamano": "40m²",
+    "capacidad": "2 Personas",
+    "cama": "Queen Size",
+    "vista": "Ciudad"
+  },
+  {
+    "id": 3,
+    "tipo": "suite",
+    "nombre": "Junior Suite 301",
+    "precio": 250,
+    "imagen": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+    "descripcionCorta": "Lujo y exclusividad.",
+    "descripcionLarga": "Vive la experiencia VIP. Sala de estar independiente, jacuzzi privado, smart TV de 65 pulgadas y acceso exclusivo al lounge ejecutivo.",
+    "tamano": "65m²",
+    "capacidad": "2 Personas",
+    "cama": "King Size",
+    "vista": "Mar (Frontal)"
+  },
+  {
+    "id": 4,
+    "tipo": "familiar",
+    "nombre": "Family Room 402",
+    "precio": 180,
+    "imagen": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+    "descripcionCorta": "Diversión para todos.",
+    "descripcionLarga": "Dos ambientes conectados para mantener la privacidad de los padres y la diversión de los niños. Incluye consola de videojuegos y menú infantil.",
+    "tamano": "55m²",
+    "capacidad": "4 Personas",
+    "cama": "2 Queen Size",
+    "vista": "Piscina"
+  }
+]
